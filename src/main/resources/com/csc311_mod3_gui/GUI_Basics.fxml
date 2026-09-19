@@ -16,8 +16,9 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="753.0" style="-fx-border-color: black; -fx-border-width: 10; -fx-border-radius: 0;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="753.0" style="-fx-border-color: black; -fx-border-width: 10; -fx-border-radius: 0;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.csc311_mod3_gui.HelloController">
    <children>
+      
       <HBox layoutY="-1.0" prefHeight="558.0" prefWidth="741.0">
          <children>
             <VBox prefHeight="344.0" prefWidth="142.0" style="-fx-border-color: black; -fx-border-radius: 20; -fx-border-width: 5;">
@@ -29,7 +30,7 @@
                   </Label>
                   <BorderPane prefHeight="238.0" prefWidth="142.0">
                      <bottom>
-                        <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" rotate="14.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 10;" text="SIGN OUT" BorderPane.alignment="CENTER">
+                        <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#clickbutton" prefHeight="25.0" prefWidth="104.0" rotate="14.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 10;" text="SIGN OUT" BorderPane.alignment="CENTER">
                            <font>
                               <Font name="Doulos SIL" size="15.0" />
                            </font>
@@ -40,7 +41,7 @@
             </VBox>
             <VBox prefHeight="393.0" prefWidth="128.0">
                <children>
-                  <Arc fill="DODGERBLUE" length="270.0" radiusX="72.0" radiusY="175.0" rotate="-13.4" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" style="visibility: 20;" type="ROUND" />
+                  <Arc fill="#fff61f" length="270.0" radiusX="72.0" radiusY="175.0" rotate="-13.4" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" style="visibility: 20;" type="ROUND" />
                </children>
                <padding>
                   <Insets right="10.0" top="20.0" />
